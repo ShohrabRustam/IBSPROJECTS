@@ -3,20 +3,13 @@
     <button mat-icon-button (click)="toggleSidebar()">
       <mat-icon>menu</mat-icon>
     </button>
-    <div class="row mr-2 ml-auto">
+    <div class="row mr-2 ml-auto" style="position: fixed; right: 0;">
       <ul class="row m-0 align-items-center">
-        <li>
-          <button
-            mat-button
-            [matMenuTriggerFor]="menu"
-            class="user mt-2 d-flex align-items-center"
-          >
-            <img src="./assets/user.jpg" alt="" class="user-image mr-1 p-2" />
 
+          <button mat-button [matMenuTriggerFor]="menu" class="user mt-2 d-flex align-items-center">
+            <img src="./assets/user.png" alt="" class="user-image mr-1 p-2" />
             User Name
-            <mat-icon class="user-image-icon ml-1"
-              >keyboard_arrow_down</mat-icon
-            >
+            <mat-icon class="user-image-icon ml-1">keyboard_arrow_down</mat-icon>
           </button>
           <mat-menu #menu="matMenu">
             <button mat-menu-item>
@@ -24,7 +17,6 @@
               Logout
             </button>
           </mat-menu>
-        </li>
       </ul>
     </div>
   </mat-toolbar-row>
