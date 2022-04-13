@@ -9,6 +9,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { HomeComponent } from './components/home/home.component';
 import { DeskboardComponent } from './components/deskboard/deskboard.component';
+import {MatSidenavModule} from '@angular/material/sidenav';
+
 
 @NgModule({
   declarations: [
@@ -25,6 +27,7 @@ import { DeskboardComponent } from './components/deskboard/deskboard.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
