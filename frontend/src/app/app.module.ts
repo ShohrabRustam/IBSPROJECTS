@@ -14,6 +14,7 @@ import {MatListModule} from '@angular/material/list';
 import {MatIconModule} from '@angular/material/icon';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
+import {MatMenuModule} from '@angular/material/menu';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { ContactComponent } from './components/contact/contact.component';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatIconModule
+    MatIconModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
