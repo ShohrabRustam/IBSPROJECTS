@@ -12,6 +12,8 @@ import { DeskboardComponent } from './components/deskboard/deskboard.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 import {MatIconModule} from '@angular/material/icon';
+import { AboutComponent } from './components/about/about.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import {MatIconModule} from '@angular/material/icon';
     SidenavComponent,
     HomeComponent,
     HeaderComponent,
-    DeskboardComponent
+    DeskboardComponent,
+    AboutComponent,
+    ContactComponent
 
   ],
   imports: [

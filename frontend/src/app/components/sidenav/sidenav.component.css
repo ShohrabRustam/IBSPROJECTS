@@ -29,4 +29,12 @@ margin: 0 8px;
 background-color: aqua !important;
 font-size: 1rem;
 }
-
+.list-item-active{
+color: rgb(7, 1, 19) !important;
+}
+.mat-subheader{
+color: #188cf8;
+font-size: 0.6;
+font-weight: 100;
+letter-spacing:1px;
+}
