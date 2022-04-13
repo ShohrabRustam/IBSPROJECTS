@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  opened:boolean =false;
   title = 'frontend';
+
+  open(){
+    this.opened = !this.opened;
+  }
+
 }
