@@ -8,7 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { HomeComponent } from './components/home/home.component';
 import { DeskboardComponent } from './components/deskboard/deskboard.component';
-import { FooterComponent } from './components/footer/footer.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
@@ -17,12 +17,12 @@ import { FooterComponent } from './components/footer/footer.component';
     SidenavComponent,
     HomeComponent,
     DeskboardComponent,
-    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
