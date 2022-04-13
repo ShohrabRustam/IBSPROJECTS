@@ -7,7 +7,7 @@ background-color: antiquewhite;
 }
 mat-drawer{
 width: 260px;
-background-color:rgb(43, 37, 37);
+background-color:grey;
 }
 mat-drawer-container{
 height: 100%;
